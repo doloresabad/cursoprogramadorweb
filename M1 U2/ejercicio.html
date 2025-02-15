@@ -10,7 +10,7 @@
     <h4>Como va</h4>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa ex inventore quae corporis natus delectus fugit, nisi pariatur. Obcaecati doloremque natus error culpa praesentium consequuntur perspiciatis reprehenderit temporibus omnis quibusdam? </p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum mollitia eaque delectus unde, molestias assumenda, pariatur dolorum aspernatur, maiores similique et ullam eveniet dicta qui fugiat neque officiis! Voluptatibus, rerum?</p>
-    
+    <a href="abad.html">web abad.html</a>
     <ul>
         <li>uno</li>
         <li>dos</li>
@@ -30,8 +30,67 @@
 
 <h2>Formulario</h2>
 <form action="">
+<p>
+    <label for="nom">Nombre</label>
+    <input type="text" name="nombre"/>
+</p>
+<p>
+    <input type="text" name="apellido" placeholder="Apellido"/>
+</p>
+<p>
+    <label for="pass">Contraseña</label>
+    <input type="password" name="pass"/>
+</p>
+<label for="sexo">Sexo</label>
+    <ul>
+        <li>
+            <input type="radio" name="sexo" value="hombre">
+            <label>Hombre</label>
+        </li>
+        <li>
+            <input type="radio" name="sexo" value="mujer">
+            <label>Mujer</label>
+        </li>
+    </ul>
+     <label>Color favorito</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="Color" value="cyan" id="cyan"/>
+                <label for="cyan">cyan</label>
+            </li>
 
+            <li>
+                <input type="checkbox" name="Color" value="magenta" id="magenta" />
+                <label for="magenta">magenta</label>
+            </li>
 
+            <li>
+                <input type="checkbox" name="Color" value="amarillo" id="amarillo" />
+                <label for="amarillo">amarillo</label>
+            </li>
+
+            <li>
+                <input type="checkbox" name="Color" value="negro" id="negro">
+                <label for="negro">negro</label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo">titulo</label>
+            <select name="titulo">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">comentarios</label>
+            <textarea name="comentarios"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="enviar"/>
+            <input type="reset" value="borrar"/>
+        </p>
 </form>
 </body>
 </html>
