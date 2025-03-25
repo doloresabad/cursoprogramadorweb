@@ -1,0 +1,30 @@
+h2 {
+    color:blueviolet;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: beige;
+    text-align: center;
+}
+
+h4 { /*comentario en CSS*/
+    color: cadetblue; /*color de fuente*/
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+    font-size: 11pt;
+}
+
+.buendia {
+    font-weight: bold;
+}
+
+#musica {
+    width: 400px;
+    height: 100px;
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px;
+    border: 2px; color: solid red;
+    box-sizing: border-box;
+}
